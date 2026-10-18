@@ -206,6 +206,13 @@ export const IconMessage = (p: P) => (
   </svg>
 );
 
+export const IconMail = (p: P) => (
+  <svg {...base} {...p}>
+    <rect x="3.5" y="5.5" width="17" height="13" rx="2" />
+    <path d="m4 7 8 5.5L20 7" />
+  </svg>
+);
+
 export const IconBolt = (p: P) => (
   <svg {...base} {...p}>
     <path d="M13.5 2.5 4.5 13.5h6l-.5 8 9-11h-6l.5-8Z" />

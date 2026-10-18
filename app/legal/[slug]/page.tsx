@@ -16,15 +16,13 @@ const docs: Record<
       {
         h: "Who we are",
         p: [
-          `${site.legalName} is the data controller for the personal data described in this policy. You can reach our data protection contact at ${site.supportEmail} or by post at ${site.address.street}, ${site.address.locality} ${site.address.postalCode}, United Kingdom.`,
+          `${site.legalName} is the data controller for the personal data described in this policy. You can reach our data protection contact at ${site.supportEmail}.`,
         ],
       },
       {
         h: "What we collect",
         p: [
           "Account data: the name, work email, phone number and company details you give us when you create an account or contact us.",
-          "Service data: call metadata, recordings, transcripts and summaries generated when you use the service, plus the contacts you import or create.",
-          "Usage data: log data, device and browser information, and diagnostic events used to keep the service running and secure.",
         ],
       },
       {
@@ -37,22 +35,15 @@ const docs: Record<
         ],
       },
       {
-        h: "Where data is stored",
-        p: [
-          "Call recordings, transcripts and summaries are stored in UK and EU data centres. Where a sub-processor operates outside the UK or EEA, transfers are covered by the UK International Data Transfer Agreement or Standard Contractual Clauses.",
-        ],
-      },
-      {
         h: "How long we keep it",
         p: [
           "Account data is kept for as long as your account is open and for six years afterwards where required for tax and accounting.",
-          "Recordings and transcripts follow the retention window configured on your workspace — 12 months by default on Advanced, and configurable on Enterprise. You can delete them earlier at any time.",
         ],
       },
       {
         h: "Your rights",
         p: [
-          "Under UK GDPR you have the right to access, correct, erase, restrict, port and object to the processing of your personal data. Write to us and we will respond within one month.",
+          "Under UK GDPR you have the right to access, correct, erase, restrict, port and object to the processing of your personal data. Write to us and we will respond as quick as we can.",
           "You also have the right to complain to the Information Commissioner's Office at ico.org.uk.",
         ],
       },
