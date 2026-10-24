@@ -338,7 +338,7 @@ export function MobileAppVisual() {
 
 export function PbxVisual() {
   const hops = [
-    { ext: "—", name: "Call arrives", sub: "0330 460 9000", state: "start" },
+    { ext: "—", name: "Call arrives", sub: "020 4620 3846", state: "start" },
     { ext: "100", name: "Reception", sub: "Rings for 15 seconds", state: "done" },
     { ext: "200", name: "Sales group", sub: "Aisha, Tom, Rhys together", state: "live" },
     { ext: "—", name: "Fallback", sub: "Agent picks up if nobody does", state: "idle" },

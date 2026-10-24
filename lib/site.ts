@@ -5,8 +5,8 @@ export const site = {
   tagline: "The business phone system that handles the work your calls create",
   description:
     "Greencaller is the VoIP business phone system for UK teams. One number your team can answer from the mobile app, a laptop or a desk phone, with a shared call history and no contract.",
-  phoneDisplay: "0330 460 9000",
-  phoneHref: "tel:+443304609000",
+  phoneDisplay: "020 4620 3846",
+  phoneHref: "tel:+442046203846",
   salesEmail: "hello@greencaller.co.uk",
   supportEmail: "support@greencaller.co.uk",
   address: {
