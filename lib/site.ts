@@ -24,6 +24,19 @@ export const site = {
   rating: { value: 4.8, count: 6200 },
 } as const;
 
+/** Desktop installer releases. Assets are hosted as GitHub Release attachments. */
+export const desktopApp = {
+  windows: {
+    version: "0.0.2",
+    fileName: "Greencaller-Setup-0.0.2.exe",
+    url: "https://github.com/zaidtutoree/GreencallerWebsite/releases/download/desktop-v0.0.2/Greencaller-Setup-0.0.2.exe",
+    sizeMb: 105,
+    sha256: "c9f99e34742ecf8d8b8e9254cc1687729bf746bb5a4b2862b7e5f477b348b909",
+    requires: "Windows 10 or 11 (64-bit)",
+    releasedOn: "2026-10-25",
+  },
+} as const;
+
 export type NavLink = { label: string; href?: string; desc?: string };
 export type NavColumn = { title: string; links: NavLink[] };
 
